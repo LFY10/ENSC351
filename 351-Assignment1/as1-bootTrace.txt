@@ -1,0 +1,48 @@
+tom@debian:~$ ssh debian@192.168.7.2
+Debian GNU/Linux 11
+
+BeagleBoard.org Debian Bullseye Minimal Image 2022-11-01
+Support: https://bbb.io/debian
+default username:password is [debian:temppwd]
+
+debian@192.168.7.2's password: 
+
+  _______ ____  __  __ 
+ |__   __/ __ \|  \/  |
+    | | | |  | | \  / |
+    | | | |  | | |\/| |
+    | | | |__| | |  | |
+    |_|  \____/|_|  |_|
+                       
+                       
+
+Last login: Mon Oct 30 02:49:02 2023 from 192.168.7.1
+Hello embedded world, from Tom!
+
+When LED3 lights up, press the USER button!
+Too early! Press when LED3 light!
+New best time!
+Your recation time was 528ms; best so far in game is 528ms.
+New best time!
+Your recation time was 483ms; best so far in game is 483ms.
+Too early! Press when LED3 light!
+Your recation time was 836ms; best so far in game is 483ms.
+Your recation time was 2157ms; best so far in game is 483ms.
+New best time!
+Your recation time was 346ms; best so far in game is 346ms.
+New best time!
+Your recation time was 261ms; best so far in game is 261ms.
+Your recation time was 2360ms; best so far in game is 261ms.
+Your recation time was 1178ms; best so far in game is 261ms.
+Your recation time was 3141ms; best so far in game is 261ms.
+Your recation time was 283ms; best so far in game is 261ms.
+Your recation time was 2359ms; best so far in game is 261ms.
+Too early! Press when LED3 light!
+No input within 5000ms; quitting! 
+Best response time: 261ms.
+debian@fla73-beagle:~$ ./mountNFS.sh 
+[sudo] password for debian: 
+debian@fla73-beagle:~$ cd /mnt/remote/myApps
+debian@fla73-beagle:/mnt/remote/myApps$ ls
+hello
+debian@fla73-beagle:/mnt/remote/myApps$ 
